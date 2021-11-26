@@ -1,0 +1,495 @@
+   /*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Raleway:wght@100;200;300;400;500;700;800;900&display=swap');
+/*==================
+   Font Family
+====================
+      font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Raleway', sans-serif;
+
+*/
+
+
+
+/*==================
+   Global CSS
+====================*/
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+
+   font-family: 'Open Sans', sans-serif;
+    color:#000;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Raleway', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+.no-left-padding{
+  padding-left: 0;
+}
+
+/*==================
+   Fast section CSS
+====================*/
+.fast-section{
+  background: url(../image/hero.png) no-repeat center top;
+  background-size: cover;
+  padding: 30px 0 150px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:#9baf6d;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 15px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #fff;
+}
+.fast-section .logo{
+  margin-top: 30px;
+}
+.fast-section h2{
+    color:#9baf6d;
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 100px;
+    font-family: roboto;
+}
+.fast-section h1{
+    color:#9baf6d;
+    font-size: 77px;
+    font-weight: 800;
+    font-family: roboto;
+}
+.fast-section .btn-more{
+  margin-left: 40px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #9BAF6D;
+  border-radius: 0;
+  padding: 13px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 120px;
+  color: #9BAF6D;
+  background: transparent;
+
+}
+.fast-section .btn-more::before{
+  content: "";
+  position: absolute;
+  background: #9BAF6D;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: -100%;
+  transition: 0.3s ease-in-out;
+  z-index: -1;
+
+}
+.fast-section .btn-more:hover::before{
+  left: 0;
+
+}
+.fast-section .btn-more:hover{
+  color: #fff;
+  z-index: 1;
+}
+
+/*==================
+   2nd section CSS
+====================*/
+.two-section{
+  background: #212121;
+}
+.two-section .tow-img{
+  margin-left: 10px;
+}
+.two-section h2{
+  margin-top: 200px;
+  color: #9BAF6D;
+}
+.two-section p{
+  margin-top: 20px;
+  color: #fff;
+}
+/*==================
+   3rd section CSS
+====================*/
+.three-section{
+  background: url(../image/3rd.png) no-repeat center top;
+  background-size: cover;
+  padding: 100px 0;
+}
+.three-section .three-img{
+  margin-bottom: 25px;
+  margin-left: 15px;
+}
+.three-section h3{
+  color: #fff;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+.three-section p{
+  color: #fff;
+  margin-left: 15px;
+
+}
+/*==================
+   4th section CSS
+====================*/
+.four-section{
+  background: #262626;
+  padding: 100px 0 80px;
+}
+.four-section .color{
+  background: #45493b;
+  padding: 50px 0 0;
+}
+.four-section .four-img{
+  background: url(../image/b.png) no-repeat center top;
+  background-size: cover;
+}
+.four-section h2{
+  text-align: center;
+  color: #AFC67B;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.four-section h1{
+  text-align: center;
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 50px;
+
+}
+.four-section h4{
+  margin-top: 50px;
+  color: #AFC67B;
+}
+.four-section p{
+  margin-top: 20px;
+  color: #fff;
+  font-size: 14px;
+}
+.four-section h5{
+  color: #fff;
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.four-section .two h4{
+  margin-top: 100px;
+  color: #AFC67B;
+} 
+.four-section .two p{
+  margin-top: 20px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.four-section .two h5{
+  color: #fff;
+  font-size: 17px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.four-section .three h4{
+  margin-top: 100px;
+  color: #AFC67B;
+} 
+.four-section .three p{
+  margin-top: 20px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.four-section .three h5{
+  color: #fff;
+  font-size: 17px;
+  margin-top: 50px;
+}
+
+
+/*==================
+   5th section CSS
+====================*/
+
+.five-section{
+  background: url(../image/3rd.png) no-repeat center top;
+  background-size: cover;
+  padding: 60px 0;
+}
+.five-section h2{
+  color: #AFC67B;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+.five-section p{
+  color: #000;
+  margin-top: 30px;
+  margin-bottom: 40px;
+
+}
+.five-section .five-img{
+  margin-bottom: 30px;
+}
+
+/*==================
+   6th section CSS
+====================*/
+.six-section{
+  background: url(../image/six.png) no-repeat center top;
+  background-size: cover;
+  padding: 150px 0;
+}
+
+/*==================
+   7th section CSS
+====================*/
+.seven-section{
+  background: url(../image/seven.png) no-repeat center top;
+  background-size: cover;
+  padding: 100px 0 30px;
+}
+.seven-section h2{
+  font-size: 35px;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.seven-section h1{
+  text-align: center;
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.seven-section h3{
+ color: #fff;
+ font-size: 19px;
+ font-weight: 700;
+
+}
+.seven-section p{
+ color: #fff;
+ font-size: 14px;
+}
+.seven-section .seven-three{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/*==================
+   8th section CSS
+====================*/
+.eight-section{
+  background: url(../image/d.png) no-repeat center top;
+  background-size: cover;
+  padding: 400px 0;
+}
+
+
+/*==================
+   booking section CSS
+====================*/
+.booking{
+  background: url(../image/booking.png) no-repeat center top;
+  background-size: cover;
+  padding: 50px 0;
+}
+.booking h2{
+  color: #fff;
+  font-weight: 700;
+  font-size: 44px;
+  margin-bottom: 50px;
+}
+.booking form .anther{
+  margin-top: 20px;
+}
+.booking form label{
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.booking .form-control{
+    background: #2c2c2c;
+    border: 1px solid #fff;
+  }
+ .booking .form-control:focus{
+    box-shadow: none;
+  }
+
+ .booking .btn-submit{
+  margin-left: 40px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #9BAF6D;
+  border-radius: 0;
+  padding: 13px 40px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 40px;
+  color: #9BAF6D;
+  background: transparent;
+  margin-bottom: 20px;
+
+}
+.booking .btn-submit::before{
+  content: "";
+  position: absolute;
+  background: #9BAF6D;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: -100%;
+  transition: 0.3s ease-in-out;
+  z-index: -1;
+
+}
+.booking .btn-submit:hover::before{
+  left: 0;
+
+}
+.booking .btn-submit:hover{
+  color: #fff;
+  z-index: 1;
+}
+/*==================
+   9th section CSS
+====================*/
+.nine-section{
+  background: url(../image/nine.png) no-repeat center top;
+  background-size: cover;
+  padding: 400px 0;
+}
+
+/*==================
+   Discover section CSS
+====================*/
+
+.discover{
+  background: url(../image/nine-a.png) no-repeat center top;
+  background-size: cover;
+  padding: 50px 0 80px;
+}
+.discover h2{
+  font-size: 35px;
+  text-align: center;
+  color: #A8BE78;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.discover h1{
+  text-align: center;
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.discover .discover-color{
+   background: #fff;
+}
+.discover h5{
+  padding-top: 20px;
+  margin-left: 20px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.discover h4{
+  padding-top: 10px;
+  margin-left: 20px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.discover p{
+  margin-left: 20px;
+  font-size: 13px;
+}
+.discover .btn-more{
+  margin-left: 10px;
+  border-bottom: 5px solid #A8BE78;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.discover .btn-more:focus{
+  box-shadow: none;
+  outline: none;
+}
+
+/*==================
+   10th section CSS
+====================*/
+
+.ten-section{
+  background: url(../image/booking.png) no-repeat center top;
+  background-size: cover;
+  padding: 50px 0;
+}
+.ten-section .ten-img{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.ten-section p{
+  color: #fff;
+}
+.ten-section h4{
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.ten-section .fa{
+  background: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 5px;
+  font-size: 20px;
+  color: #333;
+}
+.ten-section .fa:hover{
+  background: #A8BE78;
+  color: #000;
+  cursor: pointer;
+
+}
+
+/*==================
+   contact section CSS
+====================*/
+.contact{
+  background: url(../image/3rd.png) no-repeat center top;
+  background-size: cover;
+  padding: 50px 0;
+}
+.contact h2{
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.contact p{
+  color: #fff;
+  margin-bottom: 20px;
+}
+.contact h5{
+  color: #fff;
+  font-weight: 500;
+}
+.contact h6{
+  color: #fff;
+  font-weight: 400;
+}

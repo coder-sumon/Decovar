@@ -1,0 +1,66 @@
+/*Media Query*/
+
+/*NoteBook Device*/
+@media (min-width: 768px) and (max-width: 990px){
+	
+}
+
+/*Tablet Device*/
+@media (min-width: 575px) and (max-width: 768px){
+	
+}
+
+/*Mobile Device*/
+@media (min-width: 320px) and (max-width: 575px){
+
+	.navbar-toggler-icon{
+		margin: 0px 0px 0px 377px;
+        background-color: #9BAF6D;
+	}
+	.fast-section h2{
+		text-align: center;
+		font-size: 45px;
+	}
+	.fast-section h1{
+		font-size: 60px;
+		text-align: center;
+	}
+	.fast-section .btn-more{
+		margin-left: 0;
+		margin-top: 45px;
+	}
+	.two-section h2{
+		text-align: center;
+		margin-top: 50px;
+	}
+	.two-section p{
+		text-align: center;
+        font-size: 14px;
+	}
+	.three-section{
+		padding: 100px 0 50px;
+	}
+	.three-section .three-img{
+		text-align: center;
+        margin-top: -20px;
+	}
+	.three-section h3{
+		text-align: center;
+	}
+	.three-section p{
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	.four-section {
+		display: none;
+	}
+	.contact h2{
+		text-align: center;
+	}
+	.contact h5{
+		text-align: center;
+	}
+	.contact h6{
+		text-align: center;
+	}
+}
